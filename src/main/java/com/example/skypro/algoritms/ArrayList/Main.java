@@ -10,7 +10,9 @@ public class Main {
         list.add(10);
         list.add(250);
         list.add(36);
-       // list.add(8);
+        //list.add(8);
         System.out.println(list);
+        System.out.println(list.get(0));
+        System.out.println(list.contains(250));
     }
 }
